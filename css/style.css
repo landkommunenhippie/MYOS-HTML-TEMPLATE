@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    font-family: work-sans;
+    
+}
+
+.container{
+    background-color: white;
+    text-align: center;
+}
+
+.main-nav{
+    margin-top:200px;
+    margin-left:auto;
+    margin-right: auto;
+    min-height:150px;
+    padding-top: 60px;
+    background-color: white;
+    border: none;
+    font-size:10px;
+    font-weight:bold;
+    max-width: 850px;
+}
+
+
+.navbar-brand {
+  float: none;
+  padding: 0;  
+  }
+
+.navbar-center
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    height:100%;
+
+}
