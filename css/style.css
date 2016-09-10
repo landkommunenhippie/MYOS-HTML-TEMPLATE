@@ -9,17 +9,28 @@ body{
     text-align: center;
 }
 
+.container > *{
+    max-width: 950px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+/**
+* ---- Main Navigation ---
+*/
 .main-nav{
     margin-top:200px;
     margin-left:auto;
     margin-right: auto;
-    min-height:150px;
+    min-height:120px;
     padding-top: 60px;
     background-color: white;
     border: none;
     font-size:10px;
     font-weight:bold;
     max-width: 850px;
+    z-index:100;
 }
 
 
@@ -38,4 +49,78 @@ body{
     margin: auto;
     height:100%;
 
+}
+
+
+/**
+* ---- Image Slider ---
+*/
+.slider-wrapper{
+    max-height:600px;
+}
+.image-slider{
+    height:450px;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+ .carousel-indicators{
+     bottom: -40px;
+     font-weight: bold;
+ }
+ .carousel-indicators li{
+    width:auto !IMPORTANT;
+    border: none;
+    border-radius: inherit;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 25px;
+    text-indent: 0;
+ }
+.carousel-indicators .active{
+    width:auto !IMPORTANT;
+    margin-right: 25px;
+    text-decoration: underline;
+}
+
+ .carousel-indicators li .caption {
+    height: 100%;
+    width: 100%;
+    font-size: 10px;
+    
+}
+
+.btn-myos-slide{
+    background-color: #444;
+    border-radius: 0;
+    color: white;
+    text-transform: uppercase;
+    padding:10px 30px;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.carousel-caption{
+    top:150px;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
