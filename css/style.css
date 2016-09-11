@@ -26,6 +26,18 @@ body{
     margin: 0 auto 100px auto;
 }
 
+.btn-myos-transparent{
+    background-color:transparent ;
+    border-color: #444;
+    border-radius: 0;
+    color: #444;
+    text-transform: uppercase;
+    padding:15px 30px;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
 /**
 * ---- Main Navigation ---
 */
@@ -113,7 +125,7 @@ body{
     border-radius: 0;
     color: white;
     text-transform: uppercase;
-    padding:10px 30px;
+    padding:15px 30px;
     font-size: 10px;
     font-weight: bold;
     letter-spacing: 1px;
