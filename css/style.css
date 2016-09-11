@@ -14,7 +14,7 @@ body{
     max-width: 950px;
     margin-left:auto;
     margin-right:auto;
-    margin-bottom: 100px;
+   /* margin-bottom: 100px; */
 
 }
 .bold{
@@ -79,6 +79,7 @@ body{
 */
 .slider-wrapper{
     max-height:600px;
+    margin-bottom: 100px;
 }
 .image-slider{
     height:450px;
@@ -201,4 +202,17 @@ body{
 }
 .profile-picture.right + .profile-description{
     margin-right:480px;
+}
+
+/**
+-------------- image Grid ---------------------
+*/
+
+.grid{
+    max-width:950px;
+    margin:0 auto 50px auto;
+
+}
+.grid img{
+vertical-align: top;
 }
