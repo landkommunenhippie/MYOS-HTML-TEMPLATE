@@ -17,6 +17,14 @@ body{
     margin-bottom: 100px;
 
 }
+.bold{
+    font-weight: bold;
+}
+
+.teaser{
+    max-width:450px;
+    margin: 0 auto 100px auto;
+}
 
 /**
 * ---- Main Navigation ---
@@ -133,11 +141,36 @@ body{
 .container > .noisey{
     background-image: url('../images/noisey.png');
     background-repeat: repeat;
-
+    overflow:hidden;
     max-width: 1170px;
+    padding-bottom: 100px;
+    
 }
 
 .heading{
     max-height: 250px;
     margin-bottom: 50px;
+}
+.myos-profile{
+    max-width: 900px;
+    margin:0 auto 0 auto;
+}
+
+.myos-profile .profile-picture.left{
+    float:left;
+    margin-right: 75px;
+}
+.profile-picture.upright{
+    height:300px;
+    max-width:250px;
+}
+
+.myos-profile .profile-description{
+    max-width:450px;
+    text-align: left;
+    margin:auto;
+}
+
+.profile-picture.upright + .profile-description{
+    padding-top: 50px;
 }
