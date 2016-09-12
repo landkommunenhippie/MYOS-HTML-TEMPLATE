@@ -14,7 +14,8 @@ body{
     max-width: 950px;
     margin-left:auto;
     margin-right:auto;
-   /* margin-bottom: 100px; */
+    padding-bottom: 100px;
+    padding-top: 100px;
 
 }
 .bold{
@@ -24,6 +25,13 @@ body{
 .teaser{
     max-width:450px;
     margin: 0 auto 100px auto;
+    text-align: left;
+    font-size: 20px;
+}
+
+.subteaser{
+    font-size: 16px;
+    margin-bottom: 50px;
 }
 
 .btn-myos-transparent{
@@ -78,8 +86,8 @@ body{
 * ---- Image Slider ---
 */
 .slider-wrapper{
-    max-height:600px;
-    margin-bottom: 100px;
+  /*  max-height:600px;
+    margin-bottom: 100px;*/
 }
 .image-slider{
     height:450px;
@@ -156,7 +164,7 @@ body{
     background-repeat: repeat;
     overflow:hidden;
     max-width: 1170px;
-    padding-bottom: 100px;
+  
     
 }
 
@@ -166,7 +174,8 @@ body{
 }
 .myos-profile{
     max-width: 900px;
-    margin:0 auto 100px auto;
+    margin:0 auto 50px auto;
+    
 }
 
 .myos-profile .profile-picture.left{
@@ -232,4 +241,25 @@ img-responsive {
 }
 .first-block{
 	border-bottom: 5px #000 solid;
+}
+
+/**
+---------------------- WS ---------------------
+*/
+.ws-description{
+    max-width:550px;
+    text-align: left;
+    margin:auto 0 auto 400px;
+}
+
+.ws-description > ul {
+    margin-top: 50px;
+}
+.ws-description > .subteaser{
+    padding-top:50px;
+}
+
+.ws .myos-profile{
+    margin-bottom: 100px;
+    overflow:hidden;
 }
