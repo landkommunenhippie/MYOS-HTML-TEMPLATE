@@ -216,3 +216,20 @@ body{
 .grid img{
 vertical-align: top;
 }
+
+img-responsive {
+  margin-bottom: 0px;
+  vertical-align: top;
+}
+.grid-custom .col-sm-6,
+.grid-custom .col-xs-6,
+.grid-custom .col-xs-12,
+.grid-custom .col-sm-3 {
+    padding:5px;
+      }
+.img-responsive{
+    width:100%;
+}
+.first-block{
+	border-bottom: 5px #000 solid;
+}
