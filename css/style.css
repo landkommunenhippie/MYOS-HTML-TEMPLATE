@@ -14,10 +14,22 @@ body{
     max-width: 950px;
     margin-left:auto;
     margin-right:auto;
-    padding-bottom: 100px;
-    padding-top: 100px;
+    padding-bottom: 120px;
+   /* padding-top: 100px; */
 
 }
+
+.container-fluid > div + .noisey{
+    padding-top:80px;
+}
+.container-fluid > div.noisey + .noisey{
+    padding-top:40px;
+}
+
+.container-fluid > div.noisey + div{
+    padding-top:125px;
+}
+
 .bold{
     font-weight: bold;
 }
@@ -53,6 +65,8 @@ body{
     margin-top:100px;
     margin-left:auto;
     margin-right: auto;
+    margin-bottom: 120px;
+
     min-height:120px;
     padding-top: 60px;
     background-color: white;
@@ -85,12 +99,16 @@ a.brand > img{
 }
 
 .heading{
-    max-height: 250px;
     margin-bottom: 50px;
     text-align:center;
 }
+.heading > img{
+    max-width: 400px;
+}
+
 .btn-myos-center{
     text-align:center;
+    margin-top:90px;
 }
 
 /**
