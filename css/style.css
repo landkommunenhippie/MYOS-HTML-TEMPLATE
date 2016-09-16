@@ -1,14 +1,21 @@
 @font-face{
     font-family: "WorkSans";
-    src: url('Work_Sans/WorkSans-Regular.ttf'),
-    url('Work_Sans/WorkSans-Bold.ttf'),
-    url('Work_Sans/WorkSans-SemiBold.ttf'); 
+    src: url('Work_Sans/WorkSans-Regular.ttf'); 
 
+}
+@font-face{
+    font-family: "WorkSans-Bold";
+    src:  url('Work_Sans/WorkSans-Bold.ttf');
+}
+@font-face{
+    font-family: "WorkSans-SemiBold";
+    src: url('Work_Sans/WorkSans-SemiBold.ttf');
 }
 
 body{
     
     font-family: WorkSans;
+    color: #333333;
     
 }
 
@@ -39,7 +46,10 @@ body{
 }
 
 .bold{
-    font-weight: bold;
+    font-family: WorkSans-Bold;
+}
+.semi-bold{
+    font-family: WorkSans-SemiBold;
 }
 
 .teaser{
@@ -167,15 +177,18 @@ a.brand > img{
     
 }
 
-.btn-myos-slide{
+.btn-myos-black{
     background-color: #444;
     border-radius: 0;
     color: white;
+    font-family: "WorkSans-SemiBold";
     text-transform: uppercase;
-    padding:15px 30px;
-    font-size: 10px;
-    font-weight: bold;
+    padding:20px 0px;
+    font-size: 16px;
     letter-spacing: 1px;
+    line-height: 19px;
+    width:200px;
+    height:60px;
 }
 
 .carousel-caption{
@@ -314,20 +327,100 @@ img-responsive {
 /**
 ---------------------- WS ---------------------
 */
-.ws-description{
-    max-width:550px;
-    text-align: left;
-    margin:auto 0 auto 400px;
+
+.offer{
+    max-width:380px;
+    border: 2px solid #333333;
+    background-color: #FEFC55;
+    text-align:center;
+   
 }
 
-.ws-description > ul {
-    margin-top: 50px;
+.offer > h3{
+    
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    line-height: 38px;
+    font-size: 30px;
+    max-width: 250px;
+    margin:90px auto 0 auto;
+}
+
+.offer > .offer-description{
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+    max-width: 290px;
+    margin: 0 auto 60px auto;
+}
+
+.offer > .btn{
+    margin-bottom: 75px;
+}
+
+.hardfacts{
+    font-size: 14px;
+    max-inline-size: 80px;
+    margin: 0 auto 25px auto;
+}
+
+.hardfacts .surface{
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    line-height: 30px;
+    border-bottom: solid 3px #333333;
+}
+
+.hardfacts .time{
+    letter-spacing: 0.5px;
+    line-height: 38px;
+    
+}
+
+.hardfacts .time .number{
+    font-size: 24px;
+}
+
+.offer + .ws-description{
+    padding-left:55px;
+}
+
+.ws-description > .description {
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+}
+
+.ws-description > .description > ul{
+    padding-top:20px;
+    padding-left: 14px;
+    margin-bottom: 30px;
 }
 .ws-description > .subteaser{
-    padding-top:50px;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 26px;
+    padding-top: 45px;
+    margin-bottom: 30px;
 }
 
-.ws .myos-profile{
-    margin-bottom: 100px;
-    overflow:hidden;
+.ws > .grid > .row:nth-child(even) .offer{
+    background-color: #B6F2E3;
+}
+
+.ws > .grid > .row:nth-child(even) .ws-description{
+    padding-right: 55px;
+}
+
+.ws > .grid > .row{
+    margin-bottom: 55px;
+}
+.ws-offer-divider{
+    width: 100%;
+    margin-bottom: 55px;
+    padding-left:405px;
+}
+
+.ws-offer-divider > img{
+    width:68px;
 }
