@@ -361,7 +361,7 @@ img-responsive {
 
 .hardfacts{
     font-size: 14px;
-    max-inline-size: 80px;
+    max-width: 80px;
     margin: 0 auto 25px auto;
 }
 
