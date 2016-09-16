@@ -26,7 +26,7 @@ body{
 }
 
 .container-fluid > div{
-    max-width: 950px;
+    max-width: 1150px;
     margin-left:auto;
     margin-right:auto;
     padding-bottom: 120px;
@@ -134,8 +134,9 @@ a.brand > img{
 * ---- Image Slider ---
 */
 .slider-wrapper{
-  /*  max-height:600px;
-    margin-bottom: 100px;*/
+   
+   max-height:600px;
+    margin-bottom: 100px;
 }
 .image-slider{
     height:450px;
