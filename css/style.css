@@ -1,6 +1,14 @@
+@font-face{
+    font-family: "WorkSans";
+    src: url('Work_Sans/WorkSans-Regular.ttf'),
+    url('Work_Sans/WorkSans-Bold.ttf'),
+    url('Work_Sans/WorkSans-SemiBold.ttf'); 
+
+}
+
 body{
     
-    font-family: work-sans;
+    font-family: WorkSans;
     
 }
 
@@ -99,8 +107,9 @@ a.brand > img{
 }
 
 .heading{
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     text-align:center;
+    overflow:hidden;
 }
 .heading > img{
     max-width: 400px;
