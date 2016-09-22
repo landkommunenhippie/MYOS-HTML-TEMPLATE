@@ -34,6 +34,11 @@ body{
 
 }
 
+.regular-link{
+    letter-spacing: 1px;
+    font-family: "WorkSans";
+}
+
 .container-fluid > div:last-child{
     padding-bottom: 0px;
     
@@ -61,7 +66,9 @@ body{
     max-width:700px;
     margin: 0 auto 120px auto;
     text-align: left;
-    font-size: 20px;
+    font-size: 24px;
+    letter-spacing: 0.2px;
+    line-height: 28px;
 }
 
 .subteaser{
@@ -73,25 +80,29 @@ body{
     background-color:transparent ;
     border-color: #444;
     border-radius: 0;
+    border-width: 2px;
     color: #444;
     text-transform: uppercase;
-    padding:15px 30px;
-    font-size: 10px;
-    font-weight: bold;
+    font-family: WorkSans-SemiBold;
+    padding:20px 0px;
+    font-size: 16px;
     letter-spacing: 1px;
+    width: 200px; height: 60px;
+    line-height: 19px;
 }
+
 
 /**
 * ---- Main Navigation ---
 */
 .main-nav{
-    margin-top:100px;
+    margin-top:80px;
     margin-left:auto;
     margin-right: auto;
-    margin-bottom: 120px;
+    margin-bottom: 83px;
 
     min-height:120px;
-    padding-top: 60px;
+    padding-top: 95px;
     background-color: white;
     border: none;
     font-size:14px;
@@ -101,6 +112,10 @@ body{
     letter-spacing: 1.5px;
     line-height: 16px;
 }
+.navbar-default .navbar-nav > li > a{
+    color: #333;
+}
+
 .navbar-brand {
   float: none;
   padding: 0;  
@@ -145,6 +160,11 @@ a.brand > img{
 }
 .image-slider{
     height:450px;
+}
+
+.slider-heading{
+    font-size:50px;
+    margin-bottom:35px;
 }
 
 .carousel,
@@ -198,7 +218,10 @@ a.brand > img{
 }
 
 .carousel-caption{
-    top:150px;
+    margin: auto;
+    bottom: 80px;
+    padding-bottom: 0;
+    max-width: 625px;
 }
 
 /* Background images are set within the HTML using inline CSS, not here */
@@ -231,10 +254,17 @@ a.brand > img{
     overflow:hidden;
     
 }
-/*
-.myos-profile > .row{
-    max-width:870px; 
-}*/
+
+.profile-heading{
+    font-size: 40px;
+    letter-spacing: 0.9px;
+
+}
+
+.profile-heading + p {
+    letter-spacing: 0.1px;
+    line-height: 20px;
+}
 
 .profile-picture{
     max-height: 100%;
@@ -437,7 +467,7 @@ img-responsive {
     background-repeat: repeat;
     overflow:hidden;
     max-width: 100%;
-    background-size:1300px;
+    background-size:800px;
     color: #FFF;
 }
 
@@ -533,4 +563,5 @@ FOOTER
     max-width: 1000px;
     letter-spacing: 0.1px;
     line-height: 24px;
+    text-shadow:  0px 2px 4px rgb(0,0,69);
 }
