@@ -228,6 +228,7 @@ margin: auto;
 .btn-myos-black:hover{
     background-color: #FFF;
     color: #333;
+    opacity: 1;
 }
 
 .carousel-caption{
