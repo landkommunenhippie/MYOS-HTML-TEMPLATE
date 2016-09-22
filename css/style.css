@@ -203,8 +203,10 @@ margin: auto;
 .carousel-indicators .active{
     width:auto !IMPORTANT;
     margin-right: 25px;
-    text-decoration: underline;
+    border-bottom: solid;
+    padding-bottom: 16px;
 }
+
 
  .carousel-indicators li .caption {
     height: 100%;
