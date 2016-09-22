@@ -132,8 +132,12 @@ body{
     height:100%;
 
 }
-a.brand > img{
-    width: 255px;
+.brand{
+width: 255px;
+margin: auto;
+}
+.brand > img{
+    width:100%;
 }
 
 .heading{
@@ -159,7 +163,7 @@ a.brand > img{
     margin-bottom: 100px;
 }
 .image-slider{
-    height:450px;
+    height:530px;
 }
 
 .slider-heading{
@@ -311,6 +315,15 @@ a.brand > img{
 }
 .profile-description .instagram{
     margin-top:20px;
+}
+
+.instagram > a{
+    color: #333;
+    text-decoration: underline;
+}
+
+a:hover{
+    opacity: 0.5;
 }
 
 .myos-profile .profile-picture.right{
