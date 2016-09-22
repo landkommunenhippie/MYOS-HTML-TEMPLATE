@@ -185,9 +185,11 @@ margin: auto;
     height: 100%;
 }
 
- .carousel-indicators{
-     bottom: -40px;
-     font-weight: bold;
+ #myos-carousel .carousel-indicators{
+    position: relative;
+    margin: 50px auto;
+    left:0;
+    
  }
  .carousel-indicators li{
     width:auto !IMPORTANT;
@@ -207,7 +209,9 @@ margin: auto;
  .carousel-indicators li .caption {
     height: 100%;
     width: 100%;
-    font-size: 10px;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    line-height: 16px;
     
 }
 
