@@ -90,6 +90,10 @@ body{
     width: 200px; height: 60px;
     line-height: 19px;
 }
+.btn-myos-transparent:hover{
+    background-color: #333;
+    color: #FFF;
+}
 
 
 /**
@@ -219,6 +223,11 @@ margin: auto;
     line-height: 19px;
     width:200px;
     height:60px;
+}
+
+.btn-myos-black:hover{
+    background-color: #FFF;
+    color: #333;
 }
 
 .carousel-caption{
