@@ -216,8 +216,7 @@ a.brand > img{
     background-repeat: repeat;
     overflow:hidden;
     max-width: 100%;
-  
-    
+    background-size:500px;
 }
 
 
@@ -424,4 +423,76 @@ img-responsive {
 
 .ws-offer-divider > img{
     width:68px;
+}
+/**
+* GET in TOUCH
+*/
+.container-fluid > .spacey{
+    background-image: url('../images/background_space.png');
+    background-repeat: repeat;
+    overflow:hidden;
+    max-width: 100%;
+    background-size:1300px;
+}
+
+.contact-box{
+    max-width:730px;
+    margin:160px auto 160px auto;
+    background-color: #FFF;
+    padding-top:65px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+.heading-text{
+    text-transform: uppercase;
+    line-height: 38px;
+    letter-spacing: 1.1px;
+    margin-bottom: 35px;
+}
+
+.contact-form > .form-group{
+    max-width: 465px;
+    margin: 0 auto 35px auto;
+}
+
+.bordered{
+    border: none;
+    box-shadow: none;
+    transition: none;
+    border-radius: 0px;
+}
+
+.bottom-bordered{
+    border-bottom: solid 1px;
+}
+
+.whole-bordered{
+    border: solid 1px;
+}
+
+.contact-form > .form-group > input   {
+    width: 220px;
+    margin: 0px 10px 0 0;
+    padding: 0;
+}
+
+.contact-form > .form-group > input, .contact-form > .form-group > textarea{
+    letter-spacing: 0.1px;
+    line-height: 30px;
+    max-height: 320px;
+    resize: none;
+
+}
+
+.contact-form > .form-group  input:nth-child(even)   {
+    margin: 0px 0 0px 10px;
+    
+}
+
+.form-control::-moz-placeholder{
+    color:#333;
+    opacity: 0.5;
+    text-transform: uppercase;
+    
 }
