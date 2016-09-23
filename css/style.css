@@ -182,6 +182,10 @@ margin: auto;
 
 }
 
+.navbar-collapse > ul > li > a:focus{
+    background: transparent;
+}
+
 /**
 * ---- Image Slider ---
 */
