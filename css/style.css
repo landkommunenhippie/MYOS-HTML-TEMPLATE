@@ -116,10 +116,13 @@ body{
     letter-spacing: 1.5px;
     line-height: 16px;
 }
-.navbar-default .navbar-nav > li > a{
+.navbar .navbar-nav > li > a{
     color: #333;
 }
 
+.navbar .navbar-nav > li > a:hover{
+    background: transparent;
+}
 .navbar-brand {
   float: none;
   padding: 0;  
@@ -156,6 +159,27 @@ margin: auto;
 .btn-myos-center{
     text-align:center;
     margin-top:90px;
+}
+
+.fixed-nav{
+    position: fixed;
+    max-height:145px;
+    margin-top:0px;
+    max-width: 100% !important;
+    width:100%;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    display: none;
+    background-color: #FFF; 
+    z-index: 150;
+}
+
+.navbar-fixed-top{
+    max-width: 1150px;
+    margin: auto;
+    padding:15px;
+
 }
 
 /**
