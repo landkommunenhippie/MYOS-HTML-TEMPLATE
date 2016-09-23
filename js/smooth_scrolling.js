@@ -12,11 +12,9 @@ $(document).ready(function(){
     }
   });
 
-  $(document).scroll(function(event){
-      //console.log($('#main-nav + div').position());
-      //console.log(event.pageY);
-      console.log(parseInt($('#main-nav').position().top));
-      if(parseInt($('#main-nav + div').position().top - event.pageY) <= 0){
+  $(document).scroll(function(scrollEvent){
+
+      if(parseInt($('#main-nav + div').position().top - $(window).scrollTop()) <= 0){
           $('#fixed-nav').show(800);
       }else{
         $('#fixed-nav').hide(1000);
