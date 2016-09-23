@@ -416,6 +416,20 @@ img-responsive {
 	border-bottom: 5px #000 solid;
 }
 
+.gallery-grid{
+    max-width: 1150px;
+    margin: auto;
+}
+
+.gallery-item{
+    max-width:360px;
+    float: left;
+    padding: 7px;
+}
+
+.gallery-item--width2{
+    max-width:720px;
+}
 /**
 ---------------------- WS ---------------------
 */

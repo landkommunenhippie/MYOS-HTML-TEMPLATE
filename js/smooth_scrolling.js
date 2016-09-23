@@ -22,4 +22,10 @@ $(document).ready(function(){
       }
     
     });
+
+    $('.gallery-grid').masonry({
+        // options
+        itemSelector: '.gallery-item',
+        columnWidth: 365
+    });
 });
